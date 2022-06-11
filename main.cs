@@ -16,9 +16,9 @@ class Program
 
         // process
         if (number < 0)  
-           Console.WriteLine("The number is negative!");
+        Console.WriteLine("The number is negative!");
         else  
-           Console.WriteLine("The number is positive!");
+        Console.WriteLine("The number is positive!");
         Console.WriteLine("Done.");
     }
-}    
+} 
