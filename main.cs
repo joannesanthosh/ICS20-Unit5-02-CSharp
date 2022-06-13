@@ -14,11 +14,11 @@ class Program
         Console.WriteLine("Please enter a positive or negative number:");
         number = int.Parse(Console.ReadLine());
 
-        // process
+        // process 
         if (number < 0)  
-        Console.WriteLine("The number is negative!");
+            Console.WriteLine("The number is negative!");
         else  
-        Console.WriteLine("The number is positive!");
+            Console.WriteLine("The number is positive!");
         Console.WriteLine("Done.");
     }
-} 
+}
