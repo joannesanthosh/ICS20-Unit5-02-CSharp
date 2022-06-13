@@ -15,9 +15,9 @@ class Program
         number = int.Parse(Console.ReadLine());
 
         // process 
-        if (number < 0)  
+        if (number < 0)
             Console.WriteLine("The number is negative!");
-        else  
+        else
             Console.WriteLine("The number is positive!");
         Console.WriteLine("Done.");
     }
